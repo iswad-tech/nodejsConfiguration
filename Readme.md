@@ -4,8 +4,8 @@
 - Note: If you would like to update the version of package being used in the package.json; you can change it manually from package.json file and then run npm install or you can take the following steps:
 `npm uninstall express mongoose cookie-parser morgan nodemon dotenv cors` --> General Packages <br>
 `npm uninstall express-validator jsonwebtoken express-jwt shortid lodash @sendgrid/mail google-auth-library` --> User Authentication packages <br>
-`npm uninstall express mongoose cookie-parser morgan nodemon dotenv cors` --> General Packages <br>
-`npm uninstall express-validator jsonwebtoken express-jwt shortid lodash @sendgrid/mail google-auth-library` --> User Authentication packages <br>
+`npm install express mongoose cookie-parser morgan nodemon dotenv cors` --> General Packages <br>
+`npm install express-validator jsonwebtoken express-jwt shortid lodash @sendgrid/mail google-auth-library` --> User Authentication packages <br>
 - In the root directory of app create .env file and write env variables in that <br>
 `NODE_ENV=development` <br>
 `PORT=8000` <br>
